@@ -10,11 +10,11 @@ default_keywords:
  - "wordpress"
  - "free website"
  - "bizinix"
-featured_image:
- -
-   filename: "site_featured_image.jpg"
-   width: 1280
-   height: 683
+#featured_image:
+# -
+#   filename: "site_featured_image.jpg"
+#   width: 1280
+#   height: 683
 excerpt_separator: "<!--more-->"
 defaults:
  - 
