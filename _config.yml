@@ -1,0 +1,23 @@
+name: "Bootstrap 3 Template"
+baseurl: "https://bizinix-cms1.github.io/bootstrap3-template/"
+title: "Bootstrap 3 Template"
+description: "Base templatefor Bizinix GHPress built on Bootstrap 3"
+featured_image_filename: "site_featured_image.jpg"
+featured_image_width: 1280
+featured_image_height: 633
+default_keywords: "bizinix, ghpcms, github pages, github, wordpress, bitbucket, web site"
+# do not edit values below this line
+excerpt_separator: "<!--more-->"
+defaults:
+  -   
+    scope:
+      type: "pages"
+    values:
+      permalink: "/:path/:basename:output_ext"
+  -   
+    scope:
+      type: "posts"
+    values:
+      permalink: "/:year/:month/:day/:titleauthors:"
+plugins:
+  - "jekyll-redirect-from"
