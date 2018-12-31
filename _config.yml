@@ -3,13 +3,13 @@ name: "Bootstrap 3 Template"
 baseurl: "https://bizinix-cms1.github.io/bootstrap3-template/"
 title: "Bootstrap 3 Template"
 description: "Base template for Bizinix GHPress built on Bootstrap 3"
-default_keywords:
- - "github pages"
- - "github pages cms"
- - "github"
- - "wordpress"
- - "free website"
- - "bizinix"
+#default_keywords:
+# - "github pages"
+# - "github pages cms"
+# - "github"
+# - "wordpress"
+# - "free website"
+# - "bizinix"
 #featured_image:
 # -
 #   filename: "site_featured_image.jpg"
@@ -17,15 +17,13 @@ default_keywords:
 #   height: 683
 excerpt_separator: "<!--more-->"
 defaults:
- - 
-  scope:
-   type: "pages"
-  values:
-   permalink: "/:path/:basename:output_ext"
  -   
   scope:
-   type: "posts"
+    type: "pages"
   values:
-   permalink: "/:year/:month/:day/:titleauthors:"
-plugins:
- - "jekyll-redirect-from"
+    permalink: "/:path/:basename:output_ext"
+ -   
+  scope:
+    type: "posts"
+  values:
+    permalink: "/:year/:month/:day/:title"
