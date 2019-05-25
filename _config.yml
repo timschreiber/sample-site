@@ -1,8 +1,9 @@
 # do not manually edit this file. this is managed by ghp-cms
-name: "Bootstrap 3 Template"
+name: "GHPress Sample Site"
 baseurl: "https://bizinix-cms1.github.io/bootstrap3-template/"
-title: "Bootstrap 3 Template"
-description: "Base template for Bizinix GHPress built on Bootstrap 3"
+permalink: /:year/:month/:day/:title/
+title: "GHPress CMS Sample Site"
+description: "Sample Bootstrap 3 Site for Bizinix GHPress"
 #default_keywords:
 # - "github pages"
 # - "github pages cms"
